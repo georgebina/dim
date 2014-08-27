@@ -1,0 +1,4 @@
+dim
+===
+
+DITA Information Model
