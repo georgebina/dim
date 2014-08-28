@@ -57,8 +57,6 @@
     </rule>
   </pattern>
 
-
-
   <pattern id="recommendElementInParent" abstract="true">
     <title>Recommend usage of an element inside a parent element</title>
     <p>This pattern allows you to advise users to enter a specific

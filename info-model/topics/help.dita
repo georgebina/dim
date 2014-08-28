@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_hjm_zw1_gp">
+  <title>Context sensitive help</title>
+  <body>
+    <p>Context sensitive help is connected to the interface by including
+      the topic ids in the corresponding Java classes. (In other words,
+      the code connects to ids in the docs, not the docs to ids the code
+      as is the case in other systems. Topic ids should therefore remain
+      stable as much as possible. Also, the topic id must match the file
+      name of the topic file, minus the extension. </p>
+  </body>
+</topic>

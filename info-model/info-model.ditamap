@@ -7,4 +7,8 @@
  <topicref href="topics/indexEntries.dita"/>
  <topicref href="topics/images.dita"/>
  <topicref href="topics/lists.dita"/>
+ <topicref href="topics/review.dita"/>
+ <topicref href="topics/help.dita"/>
+ <topicref href="topics/directoryNames.dita"/>
+ <topicref href="topics/variables.dita"/>
 </map>

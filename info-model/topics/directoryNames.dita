@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_hjm_zw1_gp">
+  <title>Directory names</title>
+  <body>
+    <p>Representing the name of directories on the user's system:<ul
+        id="ul_lgc_bdb_gp">
+        <li>To represent the Oxygen install directory in a file path,
+          use [OXYGEN_DIR]</li>
+        <li>To represent the Oxygen plugin install directory, use
+          [OXYGEN_PLUGIN_DIR]</li>
+        <li>To represent a framework directory with an unknown name, use
+          [FRAMEWORK_DIR]</li>
+        <li>To represent the Berkley DBXML directory: [DBXML_DIR]</li>
+        <li>To represent the JDK install directory: [JDK_DIR]</li>
+        <li>To represent a customization directory:
+          [CUSTOMIZATION_DIR]</li>
+        <li>To represent the user's home directory: [HOME_DIR]</li>
+        <li>To represent the transformation output directory:
+          [OUTPUT_DIR]</li>
+        <li>[DITA_MAP_BASE_DIR]</li>
+        <li>To represent other directories, use the same convention:
+          [NAME_DIR], standardise the usage across the doc set, and add
+          it to this list.</li>
+      </ul>Don't create placeholders for directories whose names are
+      known, but whole location is not. Start the path at the directory
+      whose name is local to the system. That is, don't write
+      [FRAMEWORKS_DIR], write [OXYGEN_DIR]/frameworks. </p>
+  </body>
+</topic>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_hjm_zw1_gp">
+  <title>Variables</title>
+  <body>
+    <p>Don't use &lt;filepath> for variables that happen to represent
+      paths, use &lt;varname>. Don't use &lt;filepath> for field values
+      that happen to be pathnames, particularly if they include editor
+      variables that stand for directory names, use &lt;codeph>. </p>
+    <p>Don't use &lt;uicontrol> for variable names just because they
+      appear in the UI, use &lt;varname>.</p>
+  </body>
+</topic>
