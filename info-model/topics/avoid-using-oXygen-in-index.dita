@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_pmg_b3w_fp">
+  <title>Avoid using "oXygen" in index entries</title>
+  <body>
+    <p>For the oXygen user manual we should not include "oXygen" in
+      index entries as they do not add any new information.</p>
+    <section audience="rules">
+      <title>Automatically enforced rules</title>
+      <p>We can use the following rule to mark as a warning any
+        occurrence of the word <codeph>oXygen</codeph> in an
+          <codeph>indexterm</codeph> element:</p>
+      <dl>
+        <dlhead>
+          <ddhd>avoidWordInElement</ddhd>
+        </dlhead>
+        <dlentry>
+          <dt>word</dt>
+          <dd>oXygen</dd>
+        </dlentry>
+        <dlentry>
+          <dt>element</dt>
+          <dd>indexterm</dd>
+        </dlentry>
+        <dlentry>
+          <dt>message</dt>
+          <dd>We should avoid using oXygen inside index terms!</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </body>
+</topic>

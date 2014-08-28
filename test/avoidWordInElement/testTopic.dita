@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<?xml-model href="../../info-model/rules/rules.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<topic id="topic_ahj_4kw_fp">
+  <title>Sample</title>
+  <body>
+    <p>Sample <indexterm>oXygen sample</indexterm> sample, sample,
+      sample.</p>
+    <p>Sample</p>
+  </body>
+</topic>

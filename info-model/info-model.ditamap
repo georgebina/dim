@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Information Model for a DITA project</title>
+ <topicref href="topics/avoid-using-oXygen-in-index.dita"/>
+</map>
