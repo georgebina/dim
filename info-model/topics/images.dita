@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_swn_fn1_gp">
+  <title>Images</title>
+  <body>
+    <section>
+      <title>Scaling</title>
+      <p>All images will be already scaled with GIMP or Photoshop when
+        they are included in manual. This is necessary because if we add
+        the <codeph>image/@scale</codeph> attribute the image will not
+        be displayed correctly in JavaHelp. Also scaling the image may
+        make the text look bad at edges. </p>
+    </section>
+    <section audience="rules">
+      <title>Avoid using scale attribute on images</title>
+      <dl>
+        <dlhead>
+          <ddhd>avoidAttributeInElement</ddhd>
+        </dlhead>
+        <dlentry>
+          <dt>element</dt>
+          <dd>image</dd>
+        </dlentry>
+        <dlentry>
+          <dt>attribute</dt>
+          <dd>scale</dd>
+        </dlentry>
+        <dlentry>
+          <dt>message</dt>
+          <dd>Dynamically scaled images are not properly displayed, you
+            should scale the image with an image tool and keep it within
+            the recommended with and height limits.</dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section>
+      <title>Width and height</title>
+      <p>Maximum width of images should be 820 pixels. </p>
+      <p>Maximum height of images should be 750 pixels.</p>
+    </section>
+  </body>
+</topic>

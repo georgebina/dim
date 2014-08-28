@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_hjm_zw1_gp">
+  <title>Lists</title>
+  <body>
+    <section>
+      <title>List punctuation</title>
+      <p>Do not use <codeph>;</codeph> to end list items (this is an
+        old-fashioned approach that is not used in modern English). If
+        each list item is a sentence, end it with a period. If each item
+        is a sentence fragment, don't add any punctuation. Make sure all
+        the items in the list are either sentences or fragments. Don't
+        mix sentences and fragments in a list. Always use the same
+        punctuation for every item in a list.</p>
+    </section>
+    <section audience="rules">
+      <title>Avoid ending a list item with semi-column</title>
+      <dl>
+        <dlhead>
+          <ddhd>avoidEndFragment</ddhd>
+        </dlhead>
+        <dlentry>
+          <dt>fragment</dt>
+          <dd>;</dd>
+        </dlentry>
+        <dlentry>
+          <dt>element</dt>
+          <dd>li</dd>
+        </dlentry>
+        <dlentry>
+          <dt>message</dt>
+          <dd>List items should not end with a semi-column (;). If it is
+            a sentence then end it with a full stop (.), otherwise leave
+            it without an ending character.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </body>
+</topic>

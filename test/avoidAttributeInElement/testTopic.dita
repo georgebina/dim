@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<?xml-model href="../../info-model/rules/rules.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<topic id="topic_ahj_4kw_fp">
+  <title>Sample</title>
+  <body>
+    <p>Sample <image id="image_h3k_vp1_gp" scale="50"/>.</p>
+    <p>Sample</p>
+  </body>
+</topic>

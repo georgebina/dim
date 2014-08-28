@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_hjm_zw1_gp">
+  <title>General rules</title>
+  <body>
+    <p>Use "you" instead of "I", ex: "You should go to menu Options ..."
+      instead of "I go to menu Options ...". Exception: the Common
+      Problems chapter where the question is formulated as: "I get a
+      crash on Mac OS X when I try to start Oxygen. What should I do?" </p>
+  </body>
+</topic>
