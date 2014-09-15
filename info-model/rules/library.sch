@@ -69,7 +69,7 @@
       within the parent element.</p>
     <rule context="$parent">
       <assert test="$element" role="warn">
-        <value-of select="$message"/>
+        <value-of select="'$message'"/>
       </assert>
     </rule>
   </pattern>
