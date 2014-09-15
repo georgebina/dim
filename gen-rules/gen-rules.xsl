@@ -27,6 +27,7 @@
 
   <xsl:template match="*[contains(@class, ' map/topicref ')]" mode="rules">
     <xsl:apply-templates select="document(@href, .)" mode="rules"/>
+    <xsl:apply-templates mode="rules"/>
   </xsl:template>
   <xsl:template match="section[@audience='rules']/dl" mode="rules">
     <xsl:apply-templates select="." mode="instantiate"/>
